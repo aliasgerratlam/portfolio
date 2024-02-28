@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .skill-item {
+    @apply text-4xl font-semibold tracking-wide bg-orange-400 p-10 rounded-2xl;
+  }
+
+  .work-title {
+    @apply text-5xl font-bold uppercase tracking-wide mb-3;
+  }
+
+  .work-chip {
+    @apply text-xl font-medium border-2 px-2 py-1 rounded-xl bg-orange-400 border-orange-400 m-1;
+  }
+
+  .fact-line {
+    @apply text-5xl font-semibold tracking-wider leading-normal;
+  }
+}
